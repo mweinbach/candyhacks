@@ -1,0 +1,43 @@
+body {
+    margin: auto;
+}
+
+.outer-container {
+    background-color: #252c41;
+    min-width: 100vw;
+    max-width: 100vh;
+}
+
+.inner-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.answer {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15em;
+    color: rgb(232,138,87);
+    font-weight: bold;
+    height: 50vh;
+    width: 100vw;
+}
+
+.counter {
+    color: rgb(140, 147, 169);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.25em;
+    width: 100vw;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.status-container {
+    display: inline-block;
+}
+
+.status {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(220,223,232);
+    font-size: 2em;
+    letter-spacing: 0.05em;
+}
